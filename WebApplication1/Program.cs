@@ -16,7 +16,7 @@ namespace WebApplication1
         {
             BuildWebHost(args).Run();
         }
-        int a = 2;
+        int a = 3;
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
